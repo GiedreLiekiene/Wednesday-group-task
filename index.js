@@ -6,11 +6,28 @@ const sum = (a, b) => {
 
 console.log("task1:", sum(4, 5));
 
-//2.Write a function that takes a string as an argument. Extract the last 3 characters from the string. Return the result
-const member = "my name is Giedre";
+//OR
 
-const last3 = member.slice(-3);
-console.log("task2:", last3);
+function sum(a, b) {
+    return a + b;
+}
+
+console.log("task1:", sum(3, 4));
+
+//2.Write a function that takes a string as an argument. Extract the last 3 characters from the string. Return the result
+const string = (value) => {
+    const last3 = value.slice(-3);
+    return last3;
+};
+
+console.log("task2:", string("Giedre"));
+
+//OR
+function string(value) {
+    return value.slice(-3);
+};
+
+console.log("task2:", string("Giedre"));
 
 // 3. Write a function that takes a number (a) as argument Split a into its individual digits and return them in an array.
 const split = (a) => {
