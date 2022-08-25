@@ -10,7 +10,7 @@ console.log("task1:", sum(4, 5));
 const member = "my name is Giedre";
 
 const last3 = member.slice(-3);
-console.log(last3);
+console.log("task2:", last3);
 
 // 3. Write a function that takes a number (a) as argument Split a into its individual digits and return them in an array.
 const split = (a) => {
@@ -18,4 +18,4 @@ const split = (a) => {
     return digits;
 };
 
-console.log("Task3:", split(1234567));
+console.log("task3:", split(1234567));
